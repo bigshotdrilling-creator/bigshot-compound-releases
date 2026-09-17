@@ -1,0 +1,6 @@
+{
+  "build": 24,
+  "versionName": "1.24",
+  "apkUrl": "https://raw.githubusercontent.com/bigshotdrilling-creator/bigshot-compound-releases/main/BigShotCompound.apk",
+  "notes": "Gap-rule price cap, quieter log, leader-feed staleness guard, in-app update check."
+}
