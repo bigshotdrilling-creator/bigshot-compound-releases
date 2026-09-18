@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Big Shot Compound — beta</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; padding:24px 18px 60px; background:#121212; color:#e8eaed;
+         font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:640px; margin:0 auto; }
+  h1 { font-size:26px; margin:0 0 4px; }
+  .build { color:#ffb74d; font-weight:600; margin-bottom:22px; }
+  a.dl { display:block; background:#ffb74d; color:#121212; text-decoration:none; font-weight:700;
+         font-size:19px; text-align:center; padding:18px; border-radius:10px; margin:22px 0 10px; }
+  .hint { color:#9aa0a6; font-size:13px; text-align:center; margin-bottom:26px; }
+  h2 { font-size:17px; margin:28px 0 8px; color:#ffb74d; }
+  ol,ul { padding-left:20px; } li { margin:7px 0; }
+  .warn { background:#2a1e12; border-left:3px solid #ffb74d; padding:12px 14px; border-radius:0 6px 6px 0; margin:18px 0; }
+  .warn b { color:#ffb74d; }
+  code { background:#1e1e1e; padding:2px 6px; border-radius:4px; font-size:13px; word-break:break-all; }
+  footer { margin-top:34px; padding-top:16px; border-top:1px solid #2a2a2a; color:#79808a; font-size:12px; }
+</style>
+</head>
+<body><div class="wrap">
+
+<h1>Big Shot Compound</h1>
+<div class="build">Private beta &middot; build 24</div>
+
+<a class="dl" href="BigShotCompound.apk" download>Download the app</a>
+<div class="hint">11 MB &middot; Android only &middot; installs over any older build and keeps your data</div>
+
+<div class="warn">
+  <b>If the download stalls at 100%</b><br>
+  You are probably in an in-app browser (opened from Gmail, a text, or a chat app). Those often
+  hang on app downloads. Tap the menu (&#8942;) and choose <b>Open in Chrome browser</b>, then
+  download again.
+</div>
+
+<h2>Installing</h2>
+<ol>
+  <li>Open the downloaded file. Android will warn you about an unknown source — that is expected for
+      an app installed outside the Play Store. Allow it for your browser.</li>
+  <li>If you already have the app, Android offers <b>Update</b>. Take it — it keeps your settings and
+      your history. Do not uninstall first, that erases both.</li>
+</ol>
+
+<h2>Read this before you use it</h2>
+<p>This app trades Kalshi's 15-minute Bitcoin markets. It is a <b>testing instrument, not a money
+maker.</b> Every strategy preset in it has been measured over 160 markets and every one won between
+48% and 52% of the time on data it had not seen — a coin flip, and fees make a coin flip a slow loss.</p>
+
+<p>What it is genuinely good at is letting you test an idea honestly: a paper mode that runs the same
+code as live against real prices, real fee math in every stake, and a recorder that logs every market
+to a CSV you can analyse yourself.</p>
+
+<div class="warn">
+  <b>Start on paper and stay there for days.</b> Markets roll every 15 minutes, so one day is about
+  96 markets. You need several hundred before a result means anything. A winning afternoon is not a
+  result — presets in this app have made money for 35 hours and then given it all back.
+</div>
+
+<h2>When you move to real money</h2>
+<ul>
+  <li>You need your own Kalshi account and your own API key. Keys are stored encrypted on your phone
+      and are never sent anywhere except to Kalshi.</li>
+  <li>Set <b>"Give up after this many losses"</b> to <b>1</b>. That is flat staking: a loss is just a
+      loss. Higher values raise the stake to chase losses, and on a small account a losing streak
+      empties it.</li>
+  <li>Kalshi splits your balance internally, and an order can only spend the pocket it routes to. Your
+      usable size is the biggest single pocket, not your balance.</li>
+  <li>Risk no more than 3–5% of your balance per bet. It will feel too small. That is the point.</li>
+</ul>
+
+<p><b>This is not financial or trading advice.</b> You are responsible for your own trades. Automated
+trading can lose money faster than you can watch it, and an outage, a bug, or a dropped connection
+can cost you real money.</p>
+
+<h2>Sending feedback</h2>
+<p>The HUD tab has <b>Share log</b>, and the Ledger tab has <b>Export research data (CSV)</b>. Those two
+are far more useful than a description of what went wrong. Neither one contains your API keys.</p>
+
+<footer>
+  Direct link if you need it:<br>
+  <code>https://raw.githubusercontent.com/bigshotdrilling-creator/bigshot-compound-releases/main/BigShotCompound.apk</code><br><br>
+  Updated 2026-09-18 &middot; the app checks this page for newer builds on its own.
+</footer>
+
+</div></body>
+</html>
