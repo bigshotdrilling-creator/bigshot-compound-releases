@@ -1,6 +1,6 @@
 {
-  "build": 25,
-  "versionName": "1.25",
+  "build": 26,
+  "versionName": "1.26",
   "apkUrl": "https://raw.githubusercontent.com/bigshotdrilling-creator/bigshot-compound-releases/main/BigShotCompound.apk",
-  "notes": "Daily loss limit now goes down to 50\u00a2, so a single losing bet can end a live session."
+  "notes": "Daily loss limit now reaches $5,000, and still snaps to 50\u00a2 at the bottom."
 }
