@@ -1,6 +1,6 @@
 {
-  "build": 26,
-  "versionName": "1.26",
+  "build": 29,
+  "versionName": "1.29",
   "apkUrl": "https://raw.githubusercontent.com/bigshotdrilling-creator/bigshot-compound-releases/main/BigShotCompound.apk",
-  "notes": "Daily loss limit now reaches $5,000, and still snaps to 50\u00a2 at the bottom."
+  "notes": "Ladder depth panel, and a new option: add missed profit per lost rung. Off by default \u2014 with it off the ladder is exactly what build 26 did."
 }
